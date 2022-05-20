@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-size: 62.5%; 
+  
+  /* 1rem = 100% = 16px (normalmente) */
+  /* 1rem = 62.5% = 10px (agora) */
+}
+body {
+  background-color: hsl(204, 14%, 93%);
+}
+main {
+  background-color: green;
+}
+.BackLogo {
+  display: flex;
+  flex-direction: row;
+}
+.HeaderBack {
+  width: 50%;
+  height: 19.8rem;
+}
+#cinza {
+  background-color: hsl(213, 22%, 29%);
+}
+#azul {
+  background-color: hsl(205, 82%, 39%);
+}
+
+.header {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#BannerLogo {
+  height: 22.2rem;
+  width: 49rem;
+  background-color: aliceblue;
+
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+}
+
+#BannerLogo img {
+  width: 9rem;
+  height: 8rem;
+  margin: 3.6rem 0 .9rem 0;
+
+}
+
+#BannerLogo h1 {
+  text-align: center;
+  text-transform: uppercase;
+
+  display: block;
+  width: 49rem;
+  height: 2.9rem;
+
+  font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 2.8rem;
+    line-height: 2.9rem;
+    font-family: sans-serif;
+    letter-spacing: -0.010em;
+
+
+  color: hsl(213, 22%, 29%);
+}
+#BannerLogo h1 b {
+  display: block;
+  width: 49rem;
+  height: 2.9rem;
+
+  font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 2.8rem;
+    line-height: 2.9rem;
+    font-family: sans-serif;
+    letter-spacing: -0.010em;
+
+  color: hsl(209, 74%, 47%);
+}
