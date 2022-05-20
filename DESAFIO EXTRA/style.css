@@ -15,9 +15,7 @@
 body {
   background-color: hsl(204, 14%, 93%);
 }
-main {
-  background-color: green;
-}
+
 .BackLogo {
   display: flex;
   flex-direction: row;
@@ -105,4 +103,43 @@ align-items: center;
     letter-spacing: -0.010em;
 
   color: hsl(209, 74%, 47%);
+}
+
+section#login {
+  width: 32rem;
+  height: 14.9rem;
+  
+  margin-inline: auto;
+  padding-top: 8.7rem;
+
+  /*87px é igual a soma do espaço dado (63px) + (222-198 = 24px)
+  a diferenca entre o item que eu usei com position que nao esta contando por causa do z-index e o que está contando*/
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#login h2{
+  display: block;
+  
+  width: 32rem;
+  height: 3.3rem;
+
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-family: sans-serif;
+
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #1f7bcf;
+  padding-bottom: 1.5rem;
 }
