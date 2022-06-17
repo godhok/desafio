@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <main class="">
-
+    <main>
       <div class="title">
         <h1>Calcule a Média</h1>
       </div>
@@ -25,19 +24,22 @@
       <div class="container">
         <form action="">
           <div class="row">
-            <div class="col">
-              <input type="number" name="numberone" id="numberone" />
-              <input type="number" name="numbertwo" id="numbertwo" />
-              <input type="number" name="numberthree" id="numberthree" />
-            </div>
+            <input type="number" id="numberone" />
+            <input type="number" id="numbertwo" />
+            <input type="number" id="numberthree" />
           </div>
-          
           <div class="row">
-            <input type="button" value="Calculate" id="calculate" />
+            <input
+              type="button"
+              value="Calcular"
+              id="calculate"
+              onclick="media()"
+            />
           </div>
         </form>
+        <h4 id="resultado"></h4>
       </div>
-
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
