@@ -6,5 +6,5 @@
 https://comunidade.pedrosobral.com.br/login
 
 
-#39485a - cor do before do header
-#1270b3 - cor do after do header
+ #39485a - cor do before do header
+ #1270b3 - cor do after do header
