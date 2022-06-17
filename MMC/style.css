@@ -1,0 +1,44 @@
+/*=================== GERAL=========================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+
+  /*box-sizing border box é medir o tamanho do elemento pela borda da caixa e nao pelo tamanho do elemento*/
+}
+
+:root {
+  /*primary colors*/
+  --green: hsl(170, 100%, 26%);
+  --green-light: hsl(148, 23%, 89%);
+  --green-light-02: hsl(180, 14%, 97%);
+  --beige: hsl(39, 100%, 97%);
+  --hover: hsl(170, 100%, 14%);
+
+  /*secondary colors*/
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+  --white: hsl(0, 0%, 100%);
+
+  font-size: 62.5%;
+
+  /* 1rem = 100% = 16px (normalmente) */
+  /* 1rem = 62.5% = 10px (agora) */
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 5rem;
+}
+
+main.container {
+  width: 80rem;
+}
