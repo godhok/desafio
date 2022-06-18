@@ -58,6 +58,7 @@ h4 {
   display: block;
   min-width: 99%;
   min-height: 3rem;
+  padding: .5rem;
 }
 
 main .container form #calculate {

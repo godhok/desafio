@@ -8,6 +8,5 @@ function media() {
 
   document.getElementById(
     'resultado'
-  ).innerText = `O resultado entre ${numberone}, ${numbertwo} e ${numberthree} é ${resultado}`
-  console.log(resultado)
+  ).innerText = `O resultado entre ${numberone}, ${numbertwo} e ${numberthree} é ${resultado}.`
 }
